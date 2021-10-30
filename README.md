@@ -171,7 +171,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- LICENSE -->
 
 ## License
-
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
   
 
 
