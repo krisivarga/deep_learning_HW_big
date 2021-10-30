@@ -11,7 +11,7 @@
 
 <br  />
 
-<div  align="center">
+<div  align="left">
 
 <a  href="https://github.com/krisivarga/deep_learning_HW_big">
 
