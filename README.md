@@ -1,25 +1,6 @@
 
-# MKZs deep learning project <div  align="left">
-
-<a  href="https://github.com/krisivarga/deep_learning_HW_big">
-
-<img  src="logo.png"  alt="Logo"  width="80"  height="80">
-
-</a>
-  
-
-<div  id="top"></div>
-
-
-  
-  
-
-<!-- PROJECT LOGO -->
-
+# MKZs deep learning project 
 <br  />
-
-
-
 <!-- TABLE OF CONTENTS -->
 
 <details>
