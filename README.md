@@ -246,8 +246,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
   
 
-Győri Mihály - gyori.mihaly@edu.bme.hu
-Varga Kristóf - varga.kristof@edu.bme.hu
+Győri Mihály - gyori.mihaly@edu.bme.hu <br  />
+Varga Kristóf - varga.kristof@edu.bme.hu<br  />
 Zsemle Zsolt - zsolt.zsemle@edu.bme.hu
 
 
