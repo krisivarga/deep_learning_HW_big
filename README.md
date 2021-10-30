@@ -1,6 +1,6 @@
+<div id="top"></div>
 
-# MKZs deep learning project 
-<br  />
+
 <!-- TABLE OF CONTENTS -->
 
 <details>
@@ -29,7 +29,7 @@
 
 <li><a  href="#prerequisites">Prerequisites</a></li>
 
-<li><a  href="#installation">Installation</a></li>
+
 
 </ul>
 
@@ -51,7 +51,7 @@
 
 </details>
 
-  
+# MKZs deep learning project
   
   
 
@@ -59,13 +59,7 @@
 
 ## About The Project
 
-  
-
-  
-
-
-
-  
+  This project is an implementation of our semester assignment for "Deep Learning in Practice with Python and LUA" which is a course at Budapest University of Technology and Economics. The aim of  project is to create a well designed and sofisticated deep learning model which is capable of classifying news articles based on their titles and descriptions. In the initial implementation our plan is to train the model to be able to recognise the 5 most popular categories, in later implementation we plan to widen the spectrum of categories as well as the precision of our model. 
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
@@ -74,12 +68,9 @@
   
 
 ### Built With
-
-  
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-*  [Next.js](https://nextjs.org/)
+*  [Python](https://www.python.org/)
+*  [TensorFlow](https://www.tensorflow.org/)
+*  [skicit-learn](https://scikit-learn.org/stable/)
 
 
   
@@ -102,69 +93,27 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
   
 
-This is an example of how to list things you need to use the software and how to install them.
+In order to be able to run all scripts, the following packages will be needed.
 
-* npm
+Python 3.8.* which can easily be installed by installing [Anaconda studio](https://www.anaconda.com/products/individual) which will install the most common libraries for python and jupyter notebook as well.
 
-```sh
-
-npm install npm@latest -g
+Besides that users must install TensorFlow and scikit-learn:
 
 ```
-
-  
-
-### Installation
-
-  
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-  
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-
-git clone https://github.com/your_username_/Project-Name.git
-
+$ pip install tensorflow
+```
+```
+$ pip install -U scikit-learn
 ```
 
-3. Install NPM packages
-
-```sh
-
-npm install
-
-```
-
-4. Enter your API in `config.js`
-
-```js
-
-const  API_KEY = 'ENTER YOUR API';
-
-```
-
-  
-
-<p  align="right">(<a  href="#top">back to top</a>)</p>
-
-  
-  
-  
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-  
+Recent technological advancements have changed significantly the way news is produced, consumed, and disseminated. Frequent and on-spot news reporting has been enabled, which smartphones can access anywhere and anytime. News categorization or classification can significantly help in its proper and timely dissemination.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-  
+TBD
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -181,10 +130,24 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
   
+-  [x] Implementation of data retrieval
+-  [x] XML processing
+-  [x] Getting to know the data we will work with / basic statistics
+-  [x] Data processing
+-  [x] Basic model implementation
+-  [x] Testing initial performance
+-  [ ] Fine-tune data processing
+-  [ ] Build deep learing models
+-  [ ] Testing model performances
+-  [ ] Set up cloud enviroment for model training
+-  [ ] Selecting best model to fine-tune
+-  [ ] Fine-tune model
 
--  [x] Add Changelog
-
--  [ ] Add back to top links
+ Possible future plans:
+-  [ ] Broaden choice of categories
+-  [ ] optimase training time
+  
+        
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
