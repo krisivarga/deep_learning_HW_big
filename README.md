@@ -1,1 +1,1 @@
-# deep_learning_HW_big
+# MKZs deep learning project
