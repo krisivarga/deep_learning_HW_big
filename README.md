@@ -1,5 +1,12 @@
 
-# MKZs deep learning project
+# MKZs deep learning project <div  align="left">
+
+<a  href="https://github.com/krisivarga/deep_learning_HW_big">
+
+<img  src="logo.png"  alt="Logo"  width="80"  height="80">
+
+</a>
+  
 
 <div  id="top"></div>
 
@@ -11,14 +18,7 @@
 
 <br  />
 
-<div  align="left">
 
-<a  href="https://github.com/krisivarga/deep_learning_HW_big">
-
-<img  src="logo.png"  alt="Logo"  width="80"  height="80">
-
-</a>
-  
 
 <!-- TABLE OF CONTENTS -->
 
