@@ -71,6 +71,7 @@
 *  [Python](https://www.python.org/)
 *  [TensorFlow](https://www.tensorflow.org/)
 *  [skicit-learn](https://scikit-learn.org/stable/)
+*  [keras-tuner](https://keras.io/keras_tuner/)
 
 
   
@@ -105,17 +106,23 @@ $ pip install tensorflow
 ```
 $ pip install -U scikit-learn
 ```
-
+```
+$ pip install keras-tuner
+```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Recent technological advancements have changed significantly the way news is produced, consumed, and disseminated. Frequent and on-spot news reporting has been enabled, which smartphones can access anywhere and anytime. News categorization or classification can significantly help in its proper and timely dissemination.
+Our implementation was done using Google Colab Pro so the whole the whole process can be ran from the same notebook. The model is capable of predicting the categories of news articles base on the categories of input articles. Input sentences should be tokenized and encoded before running training. [data prep and training with fine-tuning] (https://github.com/krisivarga/deep_learning_HW_big/blob/main/LSTM_Text_Class.ipynb) This model creates and saves the best model, which can be later used.
 
-TBD
+Testing the model can be done by using [testing]( https://github.com/krisivarga/deep_learning_HW_big/blob/main/LSTM_Text_Class_tester.ipynb) notebook. This notebook prepares the data then loads the best model. After that, random sentences are selected which can be used for prediction tests.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Evaluation is done in a separate notebook [eval]( https://github.com/krisivarga/deep_learning_HW_big/blob/main/LSTM_Text_Class_eval.ipynb).
+
+
+Documentation can be found here: [Documentation]( https://github.com/krisivarga/deep_learning_HW_big/blob/main/documentation.docx) 
+
 
   
 
@@ -136,33 +143,22 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 -  [x] Data processing
 -  [x] Basic model implementation
 -  [x] Testing initial performance
--  [ ] Fine-tune data processing
--  [ ] Build deep learing models
--  [ ] Testing model performances
--  [ ] Set up cloud enviroment for model training
--  [ ] Selecting best model to fine-tune
--  [ ] Fine-tune model
+-  [x] Fine-tune data processing
+-  [x] Build deep learing model
+-  [x] Testing model performances
+training
+-  [x] Selecting best model to fine-tune
+-  [x] Fine-tune model
 
  Possible future plans:
--  [ ] Broaden choice of categories
--  [ ] optimase training time
+-  [x] Broaden choice of categories
+-  [x] optimase training time
   
         
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
   
-  
-  
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-  
-  
-
-<p  align="right">(<a  href="#top">back to top</a>)</p>
 
   
   
@@ -203,19 +199,7 @@ Project Link: [https://github.com/krisivarga/deep_learning_HW_big](https://githu
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
-  
-  
-  
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-  
-
-  
-
-<p  align="right">(<a  href="#top">back to top</a>)</p>
+ 
 
   
   
