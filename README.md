@@ -124,6 +124,9 @@ Evaluation is done in a separate notebook [eval]( https://github.com/krisivarga/
 Documentation can be found here: [Documentation]( https://github.com/krisivarga/deep_learning_HW_big/blob/main/documentation.docx) 
 
 
+Presentation of our work in a video format can be found here: [youtube video]( https://www.youtube.com/watch?v=m5kj9FAvt1k) 
+and the presentation slides are here [ppt]( https://github.com/krisivarga/deep_learning_HW_big/blob/46b49ffbf78593c4eab388294c2bbcc91a11bd5e/prez.pptx)
+
   
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
